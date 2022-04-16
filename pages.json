@@ -36,7 +36,28 @@
             }
             
         }
-    ],
+       ],
+	   "subPackages":[{
+			"root":"subpkg",
+			"pages":[{
+                "path" : "goods-detail/goods-detail",
+                "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+            }    ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	    }],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "校园二手交易平台",
